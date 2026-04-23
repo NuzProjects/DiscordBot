@@ -2,7 +2,7 @@
 
 A feature-rich Discord bot built with [discord.py 2.7.1](https://discordpy.readthedocs.io/) featuring a FastAPI web dashboard, appeal system, ticket management, moderation tools, leveling, AI chat, and more.
 
-**By using this bot, you acknowledge that *NuzFlameV2* is the creator of the code; no code may be copied, distributed, or otherwise stolen unless *NuzFlameV2* has given consent. Forking this repository is fine, but you must give credit and link back to this link.
+**By using this bot, you acknowledge that *NuzFlameV2* is the creator of the code; no code may be copied, distributed, or otherwise stolen unless *NuzFlameV2* has given consent. Forking this repository is fine, but you must give credit and link back to this link.**
 
 ---
 
