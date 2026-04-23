@@ -1,38 +1,26 @@
-# NuzFlame V2
+# Discord Bot
 
-A feature-rich Discord bot built with [discord.py 2.7](https://discordpy.readthedocs.io/) featuring a FastAPI web dashboard, appeal system, ticket management, moderation tools, leveling, AI chat, and more.
+A feature-rich Discord bot built with [discord.py 2.7.1](https://discordpy.readthedocs.io/) featuring a FastAPI web dashboard, appeal system, ticket management, moderation tools, leveling, AI chat, and more.
+
+**By using this bot, you acknowledge that *NuzFlameV2* is the creator of the code; no code may be copied, distributed, or otherwise stolen unless *NuzFlameV2* has given consent. Forking this repository is fine, but you must give credit and link back to this link.
 
 ---
 
 ## Requirements
 
-- Python **3.11.7** (see `runtime.txt`)
+- Python **3.12.13** (see `requirements.txt`)
 - A Discord bot token — [Discord Developer Portal](https://discord.com/developers/applications)
 - A Discord application with OAuth2 configured (for the web dashboard login)
 
----
-
-## Installation
-
-```bash
-# 1. Clone the repository
-git clone <your-repo-url>
-cd bot-main
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Configure the bot (see Configuration section below)
-
-# 4. Run
-python main.py
-```
+## Optional
+- A groq API key
+- Custom Emojis uploaded to your Developer Portal
 
 ---
 
 ## Configuration
 
-All configuration lives in **`config.yaml`**. No `.env` file is needed — but environment variables (e.g. from a Pterodactyl panel) override config values where supported.
+All configuration lives in **`config.yaml`**. No `.env` file is needed — but environment variables (e.g., from a Pterodactyl panel) override config values where supported.
 
 ### Bot
 
